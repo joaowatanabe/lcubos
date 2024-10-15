@@ -1,0 +1,56 @@
+@import url(../variables.css);
+@import url(../reset.css);
+@import url(../global.css);
+@import url(../components/header.css);
+@import url(../components/products.css);
+@import url(../components/footer.css);
+
+.productDetail {
+  background-color: var(--purple-100);
+  padding: 40px;
+  border-radius: var(--border-radius);
+  min-height: 512px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.productDetail__image {
+  border-radius: var(--border-radius);
+  max-width: 400px;
+}
+
+.productDetail__data {
+  max-width: 571px;
+}
+
+.productDetail__name {
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.productDetail__price {
+  color: var(--blue-900);
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.productDetail__description {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  
+}
+
+.productDeatail__button {
+  height: 80px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .productDetail {
+    flex-wrap: wrap;
+  }
+}
