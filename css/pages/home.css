@@ -1,0 +1,36 @@
+@import url(../variables.css);
+@import url(../reset.css);
+@import url(../global.css);
+@import url(../components/header.css);
+@import url(../components/products.css);
+@import url(../components/newsletter.css);
+@import url(../components/footer.css);
+
+
+.banner--primary {
+  border-radius: var(--border-radius);
+  height: 400px;
+  width: 1200px;
+  max-width: 100%;
+  margin-bottom: 52px;
+  background-image: url(../../assets/banner-primary.png);
+  background-position: center;
+  background-size: cover;
+  background: url(../../assets/banner-primary.png) center / cover no-repeat;
+}
+
+.newsletter__img {
+  border-radius: var(--border-radius);
+  max-width: 100%;
+  width: 685px;
+  height: 180px;
+
+  background: url(../../assets/banner-secundary.png), center / cover no-repeat;
+  
+}
+
+@media (max-width: 992px ) {
+  .newsletter__img {
+    width: 100%;
+  }
+}
